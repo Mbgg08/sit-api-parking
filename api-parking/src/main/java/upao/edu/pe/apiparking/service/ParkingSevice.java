@@ -1,11 +1,12 @@
-package service;
+package upao.edu.pe.apiparking.service;
 
 
-import entities.Car;
+import upao.edu.pe.apiparking.entities.Car;
+import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
-
+@Service
 public class ParkingSevice {
     private List<Car> parkingLot;
 

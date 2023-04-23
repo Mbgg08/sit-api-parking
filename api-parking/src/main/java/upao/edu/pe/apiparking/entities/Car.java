@@ -1,4 +1,4 @@
-package entities;
+package upao.edu.pe.apiparking.entities;
 
 import java.time.LocalDateTime;
 
